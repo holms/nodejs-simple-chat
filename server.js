@@ -1,5 +1,3 @@
-// npm install express jade socket.io sanitize validator
-
 var express = require('express')
     , helmet = require('helmet')
     , check = require('validator').check
