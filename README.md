@@ -3,15 +3,15 @@ nodejs-simple-chat
 
 Client/Server real-time chat based on socket.io.
 
-Requirements
-============
-
+Install
+=======
 ```
-npm install express jade socket.io sanitize validator
+npm install
 ```
 
 Usage
 =====
+To start server:
 ```
-node server.js
+npm start
 ```
