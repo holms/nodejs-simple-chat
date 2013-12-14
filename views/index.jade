@@ -1,0 +1,30 @@
+!!! 5
+html
+  head
+     meta(charset='utf-8')
+     meta(name='viewport', content='width=device-width, initial-scale=1.0')
+     meta(name='description', content='')
+     meta(name='author', content='')
+     title= 'Ryanair Chat'
+     link(rel='stylesheet', href='bootstrap.min.css')
+     link(rel='stylesheet', href='index.css')
+     // if lt IE 9
+     script(src='html5shiv.min.js')
+     script(src='respond.min.js')
+     script(src='jquery-2.0.3.min.js')
+
+     script(src="/socket.io/socket.io.js")
+     script(src="script.js")
+   body
+      div.container
+         block content
+            header
+               h1 If you fly Ryanair you suck, please discuss:
+            div#chatEntries
+            input(type='text')#nicknameInput
+            button#nicknameSet Set nickname 
+            div#chatControls
+               input(type='text', maxlength='100')#messageInput
+               button(type="submit")#submit Send
+      script(src='bootstrap.min.js', async=true)
+       
